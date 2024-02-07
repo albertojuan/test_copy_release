@@ -1,0 +1,14 @@
+DESCRIPTION >
+    Parsed `page_hit` events, implementing `browser` and `device` detection logic.
+
+TOKEN "dashboard" READ
+
+NODE endpoint
+DESCRIPTION >
+    Parse raw page_hit events
+
+SQL >
+    SELECT
+        *
+    FROM analytics_events
+   
