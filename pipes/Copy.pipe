@@ -1,0 +1,9 @@
+TOKEN "scheduled_copy_t_99949488d67b43dbafa4fcce06b345a2" READ
+
+NODE analytics_events_6139_pipe_0195_0
+SQL >
+    SELECT * FROM analytics_events
+
+TYPE COPY
+TARGET_DATASOURCE analytics_events_copy
+COPY_SCHEDULE * * * * *
