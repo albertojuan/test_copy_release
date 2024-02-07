@@ -1,0 +1,3 @@
+NODE untitled_pipe_2783_0
+SQL >
+    SELECT * FROM analytics_events
